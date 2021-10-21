@@ -1,0 +1,277 @@
+{
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#666666"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": [
+				"keyword",
+				"storage"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#CC6633"
+			}
+		},
+		{
+			"name": "Function (definition)",
+			"scope": [
+				"entity.name.function",
+				"keyword.other.name-of-parameter.objc"
+			],
+			"settings": {
+
+				"foreground": "#FFCC33",
+				"fontStyle": "bold"
+			}
+		},
+		// {
+		// 	"name": "Class (definition)",
+		// 	"scope": "entity.name",
+		// 	"settings": {
+
+		// 		"foreground": "#FFFFFF"
+		// 	}
+		// },
+		{
+			"name": "Number",
+			"scope": "constant.numeric",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#99CC66"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": [
+				"variable.language",
+				"variable.other"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#3399CC"
+			}
+		},
+		{
+			"name": "Constant",
+			"scope": "constant",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#34A2D9"
+			}
+		},
+		{
+			"name": "Constant (other variable)",
+			"scope": "variable.other.constant",
+			"settings": {
+				"foreground": "#CC3333"
+			}
+		},
+		{
+			"name": "Constant (built-in)",
+			"scope": "constant.language",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#3399CC"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#99CC33"
+			}
+		},
+		{
+			"name": "Library function",
+			"scope": "support.function",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#DA4939"
+			}
+		},
+		{
+			"name": "Library type",
+			"scope": "support.type",
+			"settings": {
+				"foreground": "#6E9CBE"
+			}
+		},
+		{
+			"name": "Library constant",
+			"scope": "support.constant",
+			"settings": {
+				"foreground": "#99CC33"
+			}
+		},
+		{
+			"name": "Markup tag",
+			"scope": [
+				"meta.tag",
+				"declaration.tag",
+				"entity.name.tag",
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#FFCC33"
+			}
+		},
+		{
+			"name": "String interpolation",
+			"scope": [
+				"constant.character.escaped",
+				"constant.character.escape",
+				"string source",
+				"string source.ruby"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#519F50"
+			}
+		},
+		// Modifications after import here
+		{
+			"name": "HTML Tag opening/closing",
+			"scope" : [
+				"punctuation.definition.tag.end",
+				"punctuation.definition.tag.begin"
+			],
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"name": "HTML Entity Name",
+			"scope": [
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#DA4939"
+			}
+		},
+		{
+			"name": "HTML Equal Sign",
+			"scope":[
+				"meta.attribute"
+			],
+			"settings": {
+				"foreground": "#E6E1DC"
+			}
+		},
+		{
+			"name": "LESS Variable",
+			"scope": [
+				"variable.other.less"
+			],
+			"settings": {
+				"foreground": "#99CC33",
+			}
+		},
+		{
+			"name": "Function Calls",
+			"scope": [
+				"meta.function-call.generic",
+				"entity.name.function.member.cpp",
+				"entity.name.function.call.cpp"
+			],
+			"settings": {
+				"foreground": "#FFCC33",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Markdown Headings",
+			"scope":[
+				"markup.heading.markdown"
+			],
+			"settings": {
+				"foreground": "#FF0000"
+			}
+		},
+		{
+			"name": "Markdown Punctuation formatting",
+			"scope": [
+				"punctuation.definition.bold.markdown",
+				"punctuation.definition.italic.markdown"
+			],
+			"settings": {
+				"foreground": "#767676"
+			}
+		},
+		{
+			"name": "Markdown Link Title",
+			"scope": [
+				"string.other.link.title.markdown",
+				"string.other.link.description.markdown"
+			],
+			"settings": {
+				"foreground": "#3366FF"
+			}
+		},
+		{
+			"name": "Markdown Link Target",
+			"scope": [
+				"markup.underline.link.markdown",
+				"constant.other.reference.link.markdown",
+				"markup.underline.link.image.markdown"
+			],
+			"settings": {
+				"foreground": "#3399CC"
+			}
+		},
+		{
+			"name": "Markdown Decorations",
+			"scope": [
+				"punctuation.definition.quote.begin.markdown",
+				"punctuation.definition.list.begin"
+			],
+			"settings": {
+				"foreground": "#96CBFE"
+			}
+		},
+		{
+			"name": "Markdown inline code",
+			"scope": [
+				"markup.inline.raw"
+			],
+			"settings": {
+				"foreground": "#34A2D9"
+			}
+		},
+		{
+			"name": "Markdown Codefence",
+			"scope": [
+				"punctuation.definition.markdown"
+			],
+			"settings": {
+				"foreground": "#3366FF"
+			}
+		},
+		{
+			"name": "Python function call arguments",
+			"scope": [
+				"meta.indexed-name.python"
+			],
+			"settings": {
+				"foreground": "#34A2D9"
+			}
+		}
+	],
+	"colors": {
+		"editor.background": "#232323",
+		"editorCursor.foreground": "#FFFFFF",
+		"editor.foreground": "#E6E1DC",
+		"editorWhitespace.foreground": "#404040",
+		"editor.lineHighlightBackground": "#333435",
+		"editor.selectionBackground": "#5A647EE0"
+	},
+	"name": "Pubster"
+}

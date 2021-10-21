@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\pubster-syntax"
+		},
+		{
+			"path": "..\\..\\boilerplates"
+		}
+	],
+	"settings": {}
+}

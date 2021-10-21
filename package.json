@@ -1,0 +1,21 @@
+{
+    "name": "pubster-syntax",
+    "displayName": "Pubster",
+    "description": "Pubster Theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Pubster",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Pubster-color-theme.json"
+            }
+        ]
+    }
+}
